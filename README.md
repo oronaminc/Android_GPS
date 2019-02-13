@@ -1,6 +1,6 @@
 # Android_GPS
 
-* In ( build.gradle -> dependencies ) Adding belows
+* In ( build.gradle -> dependencies ) Adding belows(if your API lev == 28)  
    `implementation 'com.android.support:animated-vector-drawable:28.0.0' `   
    `implementation 'com.android.support:support-media-compat:28.0.0'`   
    `implementation 'com.android.support:support-v4:28.0.0'`   
@@ -8,8 +8,8 @@
 
 Using MediaStore.ACTION_IMAGE_CAPTURE method
 
-* you must add `<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>`
-             & `<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>`in AndroidManifest.xml
+* you must add `<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>`  
+             & `<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/> in AndroidManifest.xml
 
 Screenshots
 -----------
