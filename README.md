@@ -1,9 +1,10 @@
 # Android_GPS
 
-*  `implementation 'com.android.support:animated-vector-drawable:28.0.0'
-    implementation 'com.android.support:support-media-compat:28.0.0'
-    implementation 'com.android.support:support-v4:28.0.0'
-    implementation 'com.android.support:design:28.0.0' `
+* In ( build.gradle -> dependencies ) Adding belows
+   `implementation 'com.android.support:animated-vector-drawable:28.0.0' \n
+    implementation 'com.android.support:support-media-compat:28.0.0' \n
+    implementation 'com.android.support:support-v4:28.0.0' \n
+    implementation 'com.android.support:design:28.0.0' ` 
 
 Using MediaStore.ACTION_IMAGE_CAPTURE method
 
