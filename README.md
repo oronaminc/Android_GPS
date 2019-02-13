@@ -9,7 +9,7 @@
 Using MediaStore.ACTION_IMAGE_CAPTURE method
 
 * you must add `<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>`  
-             & `<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/> in AndroidManifest.xml
+             & `<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>` in AndroidManifest.xml
 
 Screenshots
 -----------
